@@ -27,3 +27,5 @@ if ',' in targets:
 else:
     print(termcolor.colored(("[*] Scanning Single Target"), 'red'))
     scan(targets, ports)
+
+    
